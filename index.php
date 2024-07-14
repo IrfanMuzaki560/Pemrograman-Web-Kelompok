@@ -18,8 +18,8 @@ include "koneksi.php";
 					<div class="header_title">Apotek k24</div>
 				</div>
 				<div class="col-6">
-					<form action="" method="post">
-						<input type="text" placeholder="pencarian data obat....." class="header_pencarian_input">
+					<form action="?page=pencarian_obat" method="post">
+						<input type="text" name="nama_barang" placeholder="pencarian data obat....." class="header_pencarian_input">
 						<input type="submit" name="Cari" value="Cari" class="header_pencarian_button">
 					</form>
 				</div>
